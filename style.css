@@ -1,0 +1,81 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2? família = Paixão + Um &family = Sriracha & display = swap');
+:root{
+    --fonte1: verdana, tahoma, sans-serif;
+    --fonte2: 'Sriracha';
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+html, body{
+    min-height: 100vh; /* isso aqui indica o tamanho minimo do corpo do site, mas nesse caso nao era necessario, pois tenho muito contéudo*/
+}    
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+
+}
+ 
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    padding-top: 50px;  
+    margin-bottom: 5px; 
+    font-size: 60px;
+    font-family: var(--fonte1);
+}
+header>p{
+    padding-bottom: 50px;
+    font-family: var(--fonte2);
+    font-size: 25px;
+}
+a{
+    color: white;
+    text-decoration: none; /*isso tira a linha debaixo do link*/
+    font-weight: bolder;/*isso deixa em negrito*/
+}
+a:hover{ text-decoration: underline;}/* enquanto no de cima a gnt tira o sublinhado, aqui o sublinhado aparece caso vc passe o mouse por cima*/
+
+section{
+    padding-top: 10vh ;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    line-height: 1.80em;
+    font-size: 2.5vmax;
+}
+section.normal{
+    background-color: rgb(255, 254, 254);
+    color: black;
+}
+section.imagem > p{
+    background-color: rgba(66, 52, 52, 0.274);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+
+}
+section.imagem{
+    background-attachment: fixed;
+   
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    font-size: 15px;
+}
