@@ -79,6 +79,4 @@ footer{
 footer a{
     font-size: 15px;
 }
-a:hover{
-    color:violet;
-}
+#nome { color: violet;}
