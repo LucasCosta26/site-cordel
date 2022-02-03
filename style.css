@@ -9,7 +9,7 @@
     padding:0px;
 }
 html, body{
-    min-height: 100vh; /* isso aqui indica o tamanho minimo do corpo do site, mas nesse caso nao era necessario, pois tenho muito contéudo*/
+    min-height: 100vh; /* isso aqui indica o tamanho minimo do corpo do site, mas nesse caso nao era necessario, pois tem muito contéudo*/
 }    
 section#img1 {
     background-image: url(imagens/background001.jpg);
