@@ -9,7 +9,7 @@
     padding:0px;
 }
 html, body{
-    min-height: 100vh; /* isso aqui indica o tamanho minimo do corpo do site, mas nesse caso nao era necessario, pois tem muito contéudo*/
+    min-height: 100vh; /* isso aqui indica o tamanho minimo do corpo do site, mas nesse caso nao era necessario, pois tem muito contéudo para cobrir a página*/
 }    
 section#img1 {
     background-image: url(imagens/background001.jpg);
@@ -49,7 +49,7 @@ a:hover{ text-decoration: underline;}/* enquanto no de cima a gnt tira o sublinh
 section{
     padding-top: 10vh ;
     padding-bottom: 10vh;
-    padding-left: 10vh;
+    padding-left: 5vh;
     line-height: 1.80em;
     font-size: 2.5vmax;
 }
@@ -80,3 +80,34 @@ footer a{
     font-size: 15px;
 }
 #nome { color: violet;}
+
+@media screen and (max-width:500px) {
+    header>h1 {
+        font-size: 30px ;
+}
+    header>p{
+        font-size: 20px;
+    }   
+header>p{
+    padding-bottom: 30px;
+}
+section{
+    padding-top: 5vh ;
+    padding-bottom: 5vh;
+    padding-left: 3vh;
+    line-height: 1.80em;
+   
+}
+
+section.imagem > p{
+    background-color: rgba(66, 52, 52, 0.274);
+    display: inline-block;
+    padding: 8px;
+    color: white;
+}
+footer{
+    font-size: 10px;
+}
+footer a{
+    font-size: 10px;
+}}
